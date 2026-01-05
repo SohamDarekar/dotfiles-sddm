@@ -38,7 +38,7 @@ sudo nano /etc/sddm.conf
 Make sure `/etc/sddm.conf` contains:
 ```ini
 [General]
-InputMethod=qtvirtualkeyboard
+InputMethod=
 GreeterEnvironment=QML2_IMPORT_PATH=/usr/share/sddm/themes/silent/components/
 
 [Theme]
