@@ -182,7 +182,7 @@ Item {
 
                 onSourceChanged: {
                     if (source && source.toString().length > 0) {
-                        backgroundVideo.play();
+                        Qt.callLater(backgroundVideo.play);
                     }
                 }
                 onErrorOccurred: function (error) {
